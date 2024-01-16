@@ -1,0 +1,119 @@
+
+@import '../../../utils/mixins.scss';
+
+.castSection {
+    position: relative;
+    margin-bottom: 50px;
+
+    .contentWrapper{
+        max-width: 100%;
+    }
+
+    .sectionHeading{
+        font-size: 24px;
+        color: white;
+        margin-bottom: 25px;
+        margin-top: 6.5vmin;
+    }
+
+    .listItems{
+        display: flex;
+        gap: 20px;
+        overflow-y: hidden;
+        margin: 0 -20px 0 -20px;
+        padding: 0 20px;
+
+        @include md{
+            margin: 0;
+            padding: 0;
+        }
+
+        .listItem{
+            text-align: center;
+            color: white;
+            .profileImg{
+                width: 125px;
+                height: 125px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-bottom: 15px;
+                @include md{
+                    width: 175px;
+                    height: 175px;
+                    margin-bottom: 25px;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center top;
+
+                }
+            }
+
+            .name{
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 600;
+                @include md {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+
+            .character {
+                font-size: 14px;
+                line-height: 20px;
+                opacity: .5;
+
+                @include md{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .castSkeleton{
+        display: flex;
+        gap: 20px;
+        overflow-y: hidden;
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 0 20px;
+
+        @include md {
+            margin: 0;
+            padding: 0;
+        }
+
+        .skItem {
+            .circle{
+                width: 125px;
+                height: 125px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+
+                @include md {
+                    width: 175px;
+                    height: 175px;
+                    margin-bottom: 25px;
+                }
+            }
+
+            .row{
+                width: 100%;
+                height: 20px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+            }
+
+            .row2{
+                width: 75%;
+                height: 20px;
+                border-radius: 10px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
