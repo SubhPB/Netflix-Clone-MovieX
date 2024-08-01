@@ -1,3 +1,13 @@
+# MovieX
+![image](https://github.com/user-attachments/assets/38736a5d-cd55-481f-8ba0-a58d55976d99)
+
+## Watch movies of different categories
+![image](https://github.com/user-attachments/assets/07fd6c1e-12e6-4144-920c-ee0c5fa8045a)
+
+## See the details of the movie
+![image](https://github.com/user-attachments/assets/a4fbfc57-eb37-4f94-ae72-81bde8ac21ce)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
